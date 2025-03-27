@@ -49,6 +49,20 @@ The methodology encompasses:
 * Implementation of advanced regularization techniques to mitigate overfitting in ANN models.
 * Exploration of different ANN architectures and activation functions to optimize predictive performance.
 
+## Streamlit Integration:
+
+This project includes a Streamlit application (`app.py`) for easy deployment and interaction with the trained ANN model.
+Users can input customer data through a user-friendly interface,
+and the application will predict the likelihood of customer churn in real-time.
+
+To run the Streamlit app:
+
+1. Ensure you have Streamlit installed (`pip install streamlit`).
+2. Navigate to the project's root directory in your terminal.
+3. Run the command `streamlit run app.py`.
+
+This will launch the application in your web browser, allowing you to test the model with various customer inputs.
+
 ## Potential Business Applications:
 
 * Targeted Retention Campaigns: Proactive identification of high-risk customers to implement personalized retention
